@@ -1,0 +1,122 @@
+@font-face {
+    font-family:"cream" ;
+    src: url("../fuentes/cream-demo-webfont.eot eot");
+    src: url("../fuentes/cream-demo-webfont.svg") format("svg"),
+        url("../fuentes/cream-DEMO.ttf") format("truetype"),
+        url("../fuentes/cream-demo-webfont.woff") format("woff");}*{
+    margin: 0;  
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 40px 0;
+    width: 65%;
+
+
+}
+nav a {
+    color: #1F67AF;
+    text-decoration: none;
+    padding: 10px 20px;
+        transition: color 0.3s; 
+
+   
+   
+}
+
+
+    a:hover {
+        color: #EF5C48; 
+    }
+
+
+
+.logo {
+    display: inline-block;
+    width: 300px;
+     }
+    .slogan img {
+        width: 100%;
+     }
+
+
+      .botonagenda {
+        font-family: "Cream";
+        display: inline-block;
+        margin-top: 20px;
+        padding: 25px 20px;
+        background-color: #EF5C48;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        position: absolute;
+        left: 300px;
+        bottom: 200px;
+    }
+    
+   .botonagenda:hover {
+        background-color: #EF5C48;
+    }
+
+    .agenda2 {
+        background: url(../IMG/2agenda.jpg);
+        height: 648px;
+        position: relative;
+
+    }
+
+    #sprites {
+        height: 30px;
+        width: 30px;
+        background: url(../IMG/sprites\ jeje.png);
+        animation: uno 3s steps(12) infinite, dos 10s linear infinite ;   
+       }
+       @keyframes uno {
+        0% { background-position: 0 0;}
+        100% { background-position: -384px 0;}
+       }
+       @keyframes dos {
+        0% { transform: translateX(0);}
+        100% { transform: translateX(1000px);}
+       }
+
+       .footer1 {
+        background: url(../IMG/azuldefooter.jpg);
+        height: 400PX;
+        position: relative;
+       
+
+    }
+
+    .footer {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+       padding-left: 90px;
+       padding-top: 90px;
+    }
+
+    .Copyright {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+        padding-left: 350px;
+        padding-top: 100px;
+    }    
+
+    .facebook {
+        padding-left: 900px;
+
+   
+    }

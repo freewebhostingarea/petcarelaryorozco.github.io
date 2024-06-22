@@ -1,0 +1,246 @@
+@font-face {
+    font-family:"cream" ;
+    src: url("../fuentes/cream-demo-webfont.eot eot");
+    src: url("../fuentes/cream-demo-webfont.svg") format("svg"),
+        url("../fuentes/cream-DEMO.ttf") format("truetype"),
+        url("../fuentes/cream-demo-webfont.woff") format("woff");}*{
+    margin: 0;  
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 40px 0;
+    width: 65%;
+
+
+}
+nav a {
+    color: #1F67AF;
+    text-decoration: none;
+    padding: 10px 20px;
+        transition: color 0.3s; 
+
+   
+   
+}
+
+
+    a:hover {
+        color: #EF5C48; 
+    }
+
+
+
+.logo {
+    display: inline-block;
+    width: 300px;
+     }
+    .slogan img {
+        width: 100%;
+     }
+
+
+     .testimonio1 {
+        margin-top: -20px;
+       
+     }
+
+     .testimonio2 {
+        margin-top: -8px;
+        
+     }
+
+     .testimonio3 {
+        margin-top:  -8px; ;
+     }
+
+     .testimonio4 {
+        margin-top: -8px;
+     }
+
+     .cuadro1 {
+        position: absolute;
+        margin-top: -2100px;
+        left: 480px;
+     }
+
+     .ana {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: #486290;
+    top: 650px;
+    left: 780px;
+
+     }
+
+     .ruiz {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 710px;
+    left: 630px;
+    text-align: center;
+     }
+
+     .experiencia {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 950px;
+    left: 730px;
+    text-align: center;
+     }
+
+
+     .cuadro2 {
+        position: absolute;
+        margin-top: -1550px;
+        left: 20px;
+     }
+     .carlos {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: #486290;
+    top: 1200px;
+    left: 280px;
+
+     }
+
+     .martinez {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 1260px;
+    left: 150px;
+    text-align: center;
+     }
+
+     .experiencia2 {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 1495px;
+    left: 270px;
+    text-align: center;
+     }
+
+     .cuadro3 {
+        position: absolute;
+        margin-top: -1020px;
+        left: 500px; }
+
+     .laura {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: #486290;
+    top: 1725px;
+    left: 780px;
+
+     }
+
+     .gonzales {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 1790px;
+    left: 640px;
+    text-align: center;
+     }
+
+     .experiencia3 {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 2030px;
+    left: 770px;
+    text-align: center;
+     }
+
+
+
+     .cuadro4 {
+        position: absolute;
+        margin-top: -470px;
+        left: 50px;
+     }
+     .juan {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: #486290;
+    top: 2280px;
+    left: 335px;
+
+     }
+
+     .morales {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 2340px;
+    left: 190px;
+    text-align: center;
+     }
+
+     .experiencia4 {
+        position: absolute;
+        font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: black;
+    top: 2580px;
+    left: 300px;
+    text-align: center;
+     }
+
+     .footer1 {
+        background: url(../IMG/azuldefooter.jpg);
+        top: 5px;
+        height: 400PX;
+        position: relative;
+       
+
+    }
+
+
+     .footer {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+       padding-left: 90px;
+       padding-top: 90px;
+    }
+
+    .Copyright {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+        padding-left: 350px;
+        padding-top: 100px;
+    }    
+
+    .facebook {
+        padding-left: 900px;
+
+   
+    }

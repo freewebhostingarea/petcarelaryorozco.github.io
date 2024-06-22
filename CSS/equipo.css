@@ -1,0 +1,179 @@
+@font-face {
+    font-family:"cream" ;
+    src: url("../fuentes/cream-demo-webfont.eot eot");
+    src: url("../fuentes/cream-demo-webfont.svg") format("svg"),
+        url("../fuentes/cream-DEMO.ttf") format("truetype"),
+        url("../fuentes/cream-demo-webfont.woff") format("woff");}*{
+    margin: 0;  
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 40px 0;
+    width: 65%;
+
+
+}
+nav a {
+    color: #1F67AF;
+    text-decoration: none;
+    padding: 10px 20px;
+        transition: color 0.3s; 
+
+   
+   
+}
+
+
+    a:hover {
+        color: #EF5C48; 
+    }
+
+
+
+.logo {
+    display: inline-block;
+    width: 300px;
+     }
+    .slogan img {
+        width: 100%;
+     }
+
+     .doc1 {
+        position: absolute;
+        top: 660px;
+     }
+
+     .dr1 {
+        font-family: "Cream";
+        font-size: 30px;
+        position: absolute;
+        top: 150px;
+        left: 500px;
+     }
+
+     .dr2 {
+        font-family: "Cream";
+        font-size: 20px;
+        position: absolute;
+        top: 200px;
+        left: 500px;
+
+     }
+
+     .doc2 {
+        position: absolute;
+        top: 1220px;
+     }
+
+     .dr3 {
+        font-family: "Cream";
+        font-size: 30px;
+        position: absolute;
+        top: 180px;
+        left: 200px;
+     }
+
+     .dr4 {
+        font-family: "Cream";
+        font-size: 20px;
+        position: absolute;
+        top: 230px;
+        left: 200px;
+    }
+
+     .doc3{
+        position: absolute;
+        top: 1800px;
+     }
+
+
+     .dr5 {
+        font-family: "Cream";
+        font-size: 30px;
+        position: absolute;
+        top: 180px;
+        left: 200px;
+     }
+
+     .dr6{
+        font-family: "Cream";
+        font-size: 20px;
+        position: absolute;
+        top: 230px;
+        left: 200px;
+    }
+
+     .doc4{
+        position: absolute;
+        top: 2400px;
+     }
+
+     .dr7 {
+        font-family: "Cream";
+        font-size: 30px;
+        position: absolute;
+        top: 180px;
+        left: 200px;
+     }
+
+     .dr8{
+        font-family: "Cream";
+        font-size: 20px;
+        position: absolute;
+        top: 230px;
+        left: 200px;
+    }
+
+    .perroarte {
+        margin-top: 2190px;
+        height: 500px;
+        width:600px;
+
+        left: 100px;
+        position: absolute;
+    }
+     
+
+    .footer1 {
+        background: url(../IMG/azuldefooter.jpg);
+        top: 2600px;
+        height: 400px;
+        position: relative;
+       
+
+    }
+
+
+    .footer {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+       padding-left: 90px;
+       padding-top: 90px;
+    }
+
+    .Copyright {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+        padding-left: 350px;
+        padding-top: 100px;
+    }    
+
+    .facebook {
+        padding-left: 900px;
+
+   
+    }

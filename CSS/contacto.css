@@ -1,0 +1,206 @@
+@font-face {
+    font-family:"cream" ;
+    src: url("../fuentes/cream-demo-webfont.eot eot");
+    src: url("../fuentes/cream-demo-webfont.svg") format("svg"),
+        url("../fuentes/cream-DEMO.ttf") format("truetype"),
+        url("../fuentes/cream-demo-webfont.woff") format("woff");}*{
+    margin: 0;  
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 40px 0;
+    width: 65%;
+
+
+}
+nav a {
+    color: #1F67AF;
+    text-decoration: none;
+    padding: 10px 20px;
+        transition: color 0.3s; 
+
+   
+   
+}
+
+
+    a:hover {
+        color: #EF5C48; 
+    }
+
+
+
+.logo {
+    display: inline-block;
+    width: 300px;
+     }
+    
+.banner {
+    margin-top: -5px;
+}
+
+.formulario-contacto {
+  font-family: "Cream";
+  padding: 20px;
+  border-radius: 8px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 20%;
+}
+
+.formulario-contacto h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.formulario-contacto label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #00FF0000;
+  border-radius: 4px;
+  background-color: #B0D1CD;
+  box-sizing: border-box;
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.formulario-contacto button {
+  width: 100%;
+  padding: 10px;
+  background-color: #B0D1CD;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+  background-color: #a4f5f1;
+}
+
+.maps {
+padding-left: 200px;
+padding-top: 100px;
+position: absolute;
+
+}
+
+.direccion {
+  position: absolute;
+  padding-left: 300px;
+  padding-top: 110px;
+  font-family: "Cream";
+
+
+}
+
+.telefono {
+  padding-left: 200px;
+  padding-top: 250px;
+  position: absolute;
+  
+  }
+  
+  .numero {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 270px;
+    font-family: "Cream";
+  
+  
+  }
+
+  .calendario {
+    padding-left: 650px;
+    padding-top: 100px;
+    position: absolute;
+    
+    }
+    
+    .horario {
+      position: absolute;
+      padding-left: 760px;
+      padding-top: 110px;
+      font-family: "Cream";
+    
+    
+    }
+
+    .iconocorreo {
+      padding-left: 650px;
+      padding-top: 250px;
+      position: absolute;
+      
+      }
+      
+      .correo {
+        position: absolute;
+        padding-left: 750px;
+        padding-top: 270px;
+        font-family: "Cream";
+      
+      
+      }
+
+
+
+      .footer1 {
+        background: url(../IMG/azuldefooter.jpg);
+        top: 500px;
+        height: 400PX;
+        position: relative;
+       
+
+    }
+
+
+    .footer {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+       padding-left: 90px;
+       padding-top: 90px;
+    }
+
+    .Copyright {
+        font-size: 18px;
+        font-family: "arial";
+        color: white;
+        padding-left: 350px;
+        padding-top: 100px;
+    }    
+
+    .facebook {
+        padding-left: 900px;
+
+   
+    }
